@@ -1,0 +1,12 @@
+spring.application.name=config-demo
+#BELOW ID VALUE IS BEING PICKED UP FROM ENVIRONMENT VARIABLE CONFIGURATION FROM EDIT CONFIGURATION
+#BUILD_ID=101;BUILD_VERSION=1.2.3;BUILD_NAME="DEV-BUILD" from EDIT CONFIGURATION
+#build.id = {ID}
+#build.version ={VERSION}
+#build.name={BUILD_NAME}
+#build.type="Dev-env"
+
+build.id = 1011
+build.version =1.2.3
+build.name=DEVELOPMENT_BUILD_FROM_GITHUB
+build.type="Dev-env"
